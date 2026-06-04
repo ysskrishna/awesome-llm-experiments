@@ -9,4 +9,4 @@ wheels/
 # Virtual environments
 .venv
 workspace/
-experiments/multilingual-rag-retrieval/chroma
+experiments/multilingual-rag-retrieval/vector_db
