@@ -1,7 +1,7 @@
 [project]
-name = "awesome-rag-experiments"
+name = "awesome-llm-experiments"
 version = "1.0.0"
-description = "Experiments and prototypes for retrieval-augmented generation (RAG)"
+description = "Runnable notebooks exploring LLM-related patterns (RAG, embeddings, vector search, and more)."
 readme = "README.md"
 authors = [
     { name = "ysskrishna", email = "sivasaikrishnassk@gmail.com" }
@@ -10,6 +10,7 @@ license = "MIT"
 license-files = ["LICENSE"]
 requires-python = ">=3.12"
 keywords = [
+    "llm",
     "rag",
     "retrieval-augmented-generation",
     "llm",
@@ -35,9 +36,9 @@ dependencies = [
 package = false
 
 [project.urls]
-Homepage = "https://github.com/ysskrishna/awesome-rag-experiments"
-Repository = "https://github.com/ysskrishna/awesome-rag-experiments"
-Issues = "https://github.com/ysskrishna/awesome-rag-experiments/issues"
+Homepage = "https://github.com/ysskrishna/awesome-llm-experiments"
+Repository = "https://github.com/ysskrishna/awesome-llm-experiments"
+Issues = "https://github.com/ysskrishna/awesome-llm-experiments/issues"
 
 [build-system]
 requires = ["uv_build>=0.9.13,<0.10.0"]

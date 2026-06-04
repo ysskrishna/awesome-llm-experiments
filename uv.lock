@@ -259,7 +259,7 @@ wheels = [
 ]
 
 [[package]]
-name = "awesome-rag-experiments"
+name = "awesome-llm-experiments"
 version = "1.0.0"
 source = { virtual = "." }
 dependencies = [

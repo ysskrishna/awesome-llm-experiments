@@ -1,8 +1,8 @@
-# Awesome RAG Experiments
+# Awesome LLM Experiments
 
-[![License: MIT](https://img.shields.io/github/license/ysskrishna/awesome-rag-experiments)](https://github.com/ysskrishna/awesome-rag-experiments/blob/main/LICENSE) [![Python](https://img.shields.io/badge/python-3.12+-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![uv](https://img.shields.io/badge/uv-deps-DE5FE9)](https://docs.astral.sh/uv/) [![Jupyter](https://img.shields.io/badge/Jupyter-notebooks-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/) [![RAG](https://img.shields.io/badge/RAG-experiments-0A9396)](https://github.com/ysskrishna/awesome-rag-experiments) [![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
+[![License: MIT](https://img.shields.io/github/license/ysskrishna/awesome-llm-experiments)](https://github.com/ysskrishna/awesome-llm-experiments/blob/main/LICENSE) [![Python](https://img.shields.io/badge/python-3.12+-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![uv](https://img.shields.io/badge/uv-deps-DE5FE9)](https://docs.astral.sh/uv/) [![Jupyter](https://img.shields.io/badge/Jupyter-notebooks-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/) [![LLM](https://img.shields.io/badge/LLM-experiments-0A9396)](https://github.com/ysskrishna/awesome-llm-experiments) [![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
 
-Small, runnable notebooks that explore retrieval and RAG patterns. Shared dependencies via [uv](https://docs.astral.sh/uv/) at the repo root.
+Small, runnable notebooks that explore LLM-related patterns (RAG, embeddings, vector search, and more). Shared dependencies via [uv](https://docs.astral.sh/uv/) at the repo root.
 
 ## Setup
 
@@ -30,7 +30,7 @@ Run a notebook from the repo root or the experiment folder (see each experiment�
 If you find this project helpful:
 
 - ⭐ Star the repository
-- 🐛 [Report issues](https://github.com/ysskrishna/awesome-rag-experiments/issues)
+- 🐛 [Report issues](https://github.com/ysskrishna/awesome-llm-experiments/issues)
 - 🔀 Submit pull requests
 - 💝 [Sponsor on GitHub](https://github.com/sponsors/ysskrishna)
 
@@ -44,5 +44,5 @@ MIT © [Y. Siva Sai Krishna](https://github.com/ysskrishna) — see [LICENSE](LI
   <a href="https://github.com/ysskrishna">Author's GitHub</a> •
   <a href="https://linkedin.com/in/ysskrishna">Author's LinkedIn</a> •
   <a href="https://ysskrishna.space">Author's site</a> •
-  <a href="https://github.com/ysskrishna/awesome-rag-experiments/issues">Report Issues</a>
+  <a href="https://github.com/ysskrishna/awesome-llm-experiments/issues">Report Issues</a>
 </p>
