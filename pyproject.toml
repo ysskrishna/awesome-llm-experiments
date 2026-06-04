@@ -17,7 +17,22 @@ keywords = [
     "vector-search",
     "langchain",
 ]
-dependencies = []
+dependencies = [
+    "chromadb>=0.5",
+    "langchain-chroma>=0.2",
+    "langchain-community>=0.3",
+    "langchain-core>=0.3",
+    "langchain-huggingface>=0.1",
+    "langchain-text-splitters>=0.3",
+    "sentence-transformers>=3.0",
+    "jupyter>=1.0",
+    "ipykernel>=6.0",
+    "pandas>=2.0",
+    "pypdf>=5.0",
+]
+
+[tool.uv]
+package = false
 
 [project.urls]
 Homepage = "https://github.com/ysskrishna/awesome-rag-experiments"
