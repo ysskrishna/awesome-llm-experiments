@@ -1,0 +1,1 @@
+Keep code snippets simple and easily understandable.
