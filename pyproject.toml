@@ -1,0 +1,7 @@
+[project]
+name = "awesome-rag-experiments"
+version = "1.0.0"
+description = "My RAG experiments"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
