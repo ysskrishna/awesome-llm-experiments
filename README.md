@@ -2,7 +2,8 @@
 
 [![License: MIT](https://img.shields.io/github/license/ysskrishna/awesome-llm-experiments)](https://github.com/ysskrishna/awesome-llm-experiments/blob/main/LICENSE) [![Python](https://img.shields.io/badge/python-3.12+-3776AB?logo=python&logoColor=white)](https://www.python.org/) [![uv](https://img.shields.io/badge/uv-deps-DE5FE9)](https://docs.astral.sh/uv/) [![Jupyter](https://img.shields.io/badge/Jupyter-notebooks-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/) [![LLM](https://img.shields.io/badge/LLM-experiments-0A9396)](https://github.com/ysskrishna/awesome-llm-experiments) [![Author site](https://img.shields.io/badge/author-ysskrishna.space-informational)](https://ysskrishna.space)
 
-Small, runnable notebooks that explore LLM-related patterns (RAG, embeddings, vector search, and more). Shared dependencies via [uv](https://docs.astral.sh/uv/) at the repo root.
+Hands-on Python examples for LLM apps: Retrieval-Augmented Generation (RAG), embeddings, vector search, Chroma, LangChain, multilingual & multimodal (text, image) retrieval, and RAGAS evaluation. 
+
 
 ## Setup
 

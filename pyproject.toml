@@ -1,7 +1,7 @@
 [project]
 name = "awesome-llm-experiments"
 version = "1.0.0"
-description = "Runnable notebooks exploring LLM-related patterns (RAG, embeddings, vector search, and more)."
+description = "Hands-on Python examples for LLM apps: Retrieval-Augmented Generation (RAG), embeddings, vector search, Chroma, LangChain, multilingual & multimodal (text, image) retrieval, and RAGAS evaluation."
 readme = "README.md"
 authors = [
     { name = "ysskrishna", email = "sivasaikrishnassk@gmail.com" }
@@ -13,10 +13,17 @@ keywords = [
     "llm",
     "rag",
     "retrieval-augmented-generation",
-    "llm",
     "embeddings",
     "vector-search",
+    "vector-database",
+    "chromadb",
     "langchain",
+    "sentence-transformers",
+    "huggingface",
+    "jupyter",
+    "python",
+    "multimodal",
+    "ragas",
 ]
 dependencies = [
     "chromadb>=0.5",
