@@ -25,6 +25,7 @@ Run a notebook from the repo root or the experiment folder (see each experimentâ
 |------------|-------------|----------|
 | [multilingual-rag-retrieval](experiments/multilingual-rag-retrieval/) | Bilingual UDHR (English + Hindi): E5 embeddings, Chroma vector DB, optional `lang` filters and cross-lingual search | [notebook.ipynb](experiments/multilingual-rag-retrieval/notebook.ipynb) |
 | [multimodal-text-image-vl-embeddings](experiments/multimodal-text-image-vl-embeddings/) | **Colab-only:** cross-modal text+image VL embeddings with Qwen3-VL (Sentence Transformers). Open from GitHub in [Colab](https://colab.research.google.com/), enable **GPU** runtime â€” not via `uv sync` | [notebook.ipynb](experiments/multimodal-text-image-vl-embeddings/notebook.ipynb) |
+| [ragas-rag-evaluation](experiments/ragas-rag-evaluation/) | English UDHR RAG evaluated with [RAGAS](https://docs.ragas.io/): retrieval metrics (context precision/recall) + generation metrics (faithfulness/answer relevancy); MiniLM + Chroma + OpenAI | [notebook.ipynb](experiments/ragas-rag-evaluation/notebook.ipynb) |
 
 ## Support
 

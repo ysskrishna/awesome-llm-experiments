@@ -4,7 +4,7 @@
 
 - Simple, minimal diffs; match conventions in the experiment folder.
 - Naming: `EXPERIMENT_DIR`, `DATA_DIR`, and clear constants for data/index paths; use `VECTOR_DB_PATH` and `vector_db` when the experiment persists a local vector index. Library names (e.g. Chroma) only in imports and doc links.
-- Comments only for non-obvious logic (prefixes, filters, chunking).
+- Comments: generous inline comments so beginners can follow without external docs;
 - At ingest, store anything you will filter or display later in document metadata (not only in text).
 - Follow each embedding model's documented input format in code (see its model card).
 
