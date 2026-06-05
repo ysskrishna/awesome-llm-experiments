@@ -1,0 +1,15 @@
+sequenceDiagram
+    participant Corpus as Image corpus
+    participant Doc as encode_document
+    participant User as User query
+    participant Q as encode_query
+    participant Sim as similarity
+
+    Note over Corpus,Doc: Offline - once per image
+    Corpus->>Doc: car.jpg, bee.jpg
+    Doc->>Sim: doc vectors
+
+    Note over User,Q: Online - each search
+    User->>Q: vehicle near building
+    Q->>Sim: query vector
+    Sim->>User: car scores higher - retrieve car

@@ -1,0 +1,16 @@
+flowchart TB
+    subgraph s1 [Step 1 - embed both modalities]
+        I[2 image URLs] --> E1[model.encode]
+        T[4 text captions] --> E2[model.encode]
+        E1 --> IE["img_embeddings 2 x 2048"]
+        E2 --> TE["text_embeddings 4 x 2048"]
+    end
+    subgraph s2 [Step 2 - score every pair]
+        IE --> SIM[model.similarity]
+        TE --> SIM
+        SIM --> MAT["matrix 4 x 2: row=text col=image"]
+    end
+    subgraph s3 [Step 3 - retrieval check]
+        MAT --> WIN[For each text row: highest column wins]
+        WIN --> OK[car caption to car col / bee caption to bee col]
+    end

@@ -1,0 +1,10 @@
+flowchart LR
+    subgraph done [This notebook]
+        A[encode images] --> C[similarity]
+        B[encode text] --> C
+        C --> D[rank winner]
+    end
+    subgraph next [Production next step]
+        D --> E[(vector DB)]
+        E --> F[multimodal RAG + LLM]
+    end
