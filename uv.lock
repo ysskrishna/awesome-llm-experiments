@@ -285,6 +285,7 @@ dependencies = [
     { name = "pandas" },
     { name = "pillow" },
     { name = "pypdf" },
+    { name = "python-dotenv" },
     { name = "ragas" },
     { name = "sentence-transformers" },
 ]
@@ -304,6 +305,7 @@ requires-dist = [
     { name = "pandas", specifier = ">=2.0" },
     { name = "pillow", specifier = ">=10.0" },
     { name = "pypdf", specifier = ">=5.0" },
+    { name = "python-dotenv", specifier = ">=1.0" },
     { name = "ragas", specifier = ">=0.2" },
     { name = "sentence-transformers", specifier = ">=3.0" },
 ]
