@@ -4,6 +4,10 @@
 
 Hands-on Python examples for LLM apps: Retrieval-Augmented Generation (RAG), embeddings, vector search, Chroma, LangChain, multilingual & multimodal (text, image) retrieval, and RAGAS evaluation. 
 
+<p align="center">
+  <img src="assets/og.jpg" alt="Awesome LLM Experiments preview" width="800">
+</p>
+
 
 ## Setup
 
