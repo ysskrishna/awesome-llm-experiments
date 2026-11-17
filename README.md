@@ -32,6 +32,14 @@ Run a notebook from the repo root or the experiment folder (see each experimentâ
 | [multimodal-text-image-vl-embeddings](experiments/multimodal-text-image-vl-embeddings/) | **Colab-only:** cross-modal text+image VL embeddings with Qwen3-VL (Sentence Transformers). Open from GitHub in [Colab](https://colab.research.google.com/), enable **GPU** runtime â€” not via `uv sync` | [notebook.ipynb](experiments/multimodal-text-image-vl-embeddings/notebook.ipynb) |
 | [ragas-rag-evaluation](experiments/ragas-rag-evaluation/) | English UDHR RAG evaluated with [RAGAS](https://docs.ragas.io/): retrieval metrics (context precision/recall) + generation metrics (faithfulness/answer relevancy); MiniLM + Chroma + OpenAI | [notebook.ipynb](experiments/ragas-rag-evaluation/notebook.ipynb) |
 
+## Built and maintained by
+
+Awesome LLM Experiments is built and maintained by:
+
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/ysskrishna.png?size=120" width="60" height="60" alt="Y. Siva Sai Krishna"> | **Y. Siva Sai Krishna** | [@ysskrishna](https://github.com/ysskrishna) | Creator |
+
 ## Support
 
 If you find this project helpful:
